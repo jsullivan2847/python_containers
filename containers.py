@@ -32,7 +32,10 @@ foods = ('pizza', 'hotdog', 'french-fry', 'pea soup', 'ramen')
 # Exercise 3
 # Using a forloop, print just the last two food strings from foods.
 
-# for food, index in enumerate(foods):
+for index, food in enumerate(foods):
+    if index == 3 or index == 4: 
+        print(food)
+    
 
 
 # Exercise 4
