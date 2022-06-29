@@ -32,9 +32,9 @@ foods = ('pizza', 'hotdog', 'french-fry', 'pea soup', 'ramen')
 # Exercise 3
 # Using a forloop, print just the last two food strings from foods.
 
-for index, food in enumerate(foods):
-    if index == 3 or index == 4: 
-        print(food)
+# for index, food in enumerate(foods):
+#     if index == 3 or index == 4: 
+#         print(food)
     
 
 
@@ -50,13 +50,16 @@ home_town = {
 }
 
 # print(f'''I was born in 
-# {home_town["city"]}, {home_town["state"]} - population of {home_town["population"]}''')
+# {home_town["city"]}, {home_town["state"]} -
+# population of {home_town["population"]}''')
 
 # Exercise 5
 # Iterate over the key: value pairs in home_town
 
 # for key, value in home_town.items():
 #     print(f'{key} : {value}')
+
+
 
 # Exercise 6
 # Create an empty list named cohort.
